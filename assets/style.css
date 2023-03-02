@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: transparent;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #202020;
+}
+
+header {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 10vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+}
+
+h1 {
+    display: inline-block;
+    margin: 3vh 50vw 3vh 3vw;
+}
+
+h2 {
+    display: inline-block;
+    margin-right: 3vw;
+}
+
+#main-container {
+    background-color: #383737;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+img {
+    display: block;
+    margin: 20vh auto 2vh auto;
+}
+
+figcaption {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+
+form {
+    display: block;
+    margin: 20vh auto;
+    width: 40vw;
+    height: 40vh;
+    background-color: grey;
+}
+
+.form-inputs {
+    display: block;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5vh;
+    height: 3vh;
+    padding-left: 5px;
+}
+
+button {
+    display:block;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5vw;
+    height: 5vh;
+    background-color: cadetblue;
+    font-weight: bolder;
+}
+
+.border-styles {
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.4);
+}
+
+footer {
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 8vh;
+}
